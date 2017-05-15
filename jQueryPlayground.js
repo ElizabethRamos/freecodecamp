@@ -1,10 +1,16 @@
 <script>
   $(document).ready(function() {
     $("#target1").css("color", "red");
+#função css: muda o css de um elemento
     $("#target1").prop("disabled", true);
+função prop: altera as propriedades de elementos html, não css. ex:desabilitar botões. 
     $("#target4").remove();
+#função remove: remove um elemento
     $("#target2").appendTo("#right-well");
+#função appendTo: move um elemento para o outro lado (no caso, right to left)
     $("#target5").clone().appendTo("#left-well");
+#função clone:copia um elemento
+
 
   });
 </script>
